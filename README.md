@@ -45,6 +45,9 @@ July 11th:
 - Made an github repository
 - Added class Post
 - Made a One-to-Many relation between User and Post ( User HasMany Posts )
+- Made a classic model for Post
+- Made a controller for Post. You can create Posts and depending on status ( TODO: Add buttons like publish and save as a draft, if saved as a draft in request status is false, else pushed publish and status is true )
+- Added Empty views for posts
 
 
 
