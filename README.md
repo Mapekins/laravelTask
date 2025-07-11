@@ -29,10 +29,29 @@ Database Structure for posts Table:
 
   
 Minimum Features to Implement:  
-Create new post  
-View all posts (list page)  
-Edit a post  
-Delete a post  
-Validation on form input  
+- Create new post  
+- View all posts (list page)  
+- Edit a post  
+- Delete a post  
+- Validation on form input  
+  
 Submission:  
 Push your code to GitHub or GitLab and share the link for review.  
+  
+  
+My dairy: 
+July 11th:  
+- Started a new Project
+- Made an github repository
+- Added class Post
+- Made a One-to-Many relation between User and Post ( User HasMany Posts )
+
+
+
+
+
+
+
+
+
+
