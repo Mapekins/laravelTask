@@ -19,10 +19,12 @@ class StorePostRequest extends FormRequest
      *
      * @return array<string, \Illuminate\Contracts\Validation\ValidationRule|array<mixed>|string>
      */
-    public function rules(): array
+    public function rules()
     {
         return [
-            //
+            'title' => 'required|string|min:4|max:255',
+            'content' => 'required|string|min:10|max:1000',
+            'status' => 'boolean',
         ];
     }
 }
